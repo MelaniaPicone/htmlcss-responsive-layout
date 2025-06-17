@@ -93,6 +93,8 @@
     padding-right: 30px;
   }
 
-
+  .btn {
+    padding: 10px 30px;
+  }
 
 }
