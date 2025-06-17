@@ -79,10 +79,20 @@
   footer {
     display: flex;
     justify-content: space-between;
-  }
-
-  footer strong {
-    align-content: flex-start;
 
   }
+
+}
+
+/* bonus large mobile */
+
+@media screen and (min-width: 576px) {
+
+  .presentation img {
+    float: left;
+    padding-right: 30px;
+  }
+
+
+
 }
