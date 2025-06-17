@@ -55,5 +55,21 @@
     display: flex;
   }
 
+  .recipe-card {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .recipe-video {
+    width: 70%;
+    height: 400px;
+    object-fit: cover;
+  }
+
+  .recipe-info li {
+    justify-content: initial;
+    padding: 0px;
+  }
+
 
 }
