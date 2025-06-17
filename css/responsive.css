@@ -75,4 +75,14 @@
   i {
     display: inline-block;
   }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  footer strong {
+    align-content: flex-start;
+
+  }
 }
