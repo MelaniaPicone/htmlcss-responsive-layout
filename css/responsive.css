@@ -71,5 +71,8 @@
     padding: 0px;
   }
 
-
+  .social-networks .label,
+  i {
+    display: inline-block;
+  }
 }
