@@ -36,5 +36,10 @@
     display: block;
   }
 
+  .presentation img {
+    float: left;
+    padding-right: 30px;
+  }
+
 
 }
