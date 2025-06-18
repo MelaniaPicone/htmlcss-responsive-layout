@@ -1,44 +1,52 @@
 /* Soluzione qui */
 
 
+/* bonus large mobile */
+
+@media screen and (min-width: 576px) {
+
+  .presentation img {
+    float: left;
+    margin-right: 10px;
+  }
+
+  .btn {
+    width: 20%;
+  }
+
+}
+
 /* Tablet */
 
 @media screen and (min-width: 768px) {
 
   #topbar {
-    display: flex;
-    align-items: flex-start;
     justify-content: flex-start;
   }
 
-  .container {
+  main {
     padding: 20px;
   }
 
   .recipe-origin {
-    display: inline-block;
+    display: inline;
   }
 
-  .recipe-category {
-    font-size: 20px;
+  .recipe-title {
+    font-size: 30px;
   }
 
-  .quick-notes li {
-    display: inline-flex;
-    padding: 0 35px;
+  .quick-notes ul {
+    display: flex;
+    flex-wrap: wrap;
   }
 
-  .btn {
-    padding: 10px 50px;
+  .quick-notes ul li {
+    width: calc (100% / 3)
   }
 
   .ads {
     display: block;
-  }
-
-  .presentation img {
-    float: left;
-    padding-right: 30px;
   }
 
 }
@@ -47,12 +55,12 @@
 
 @media screen and (min-width: 992px) {
 
-  .recipe-name {
-    font-size: 40px;
+  .recipe-title {
+    font-size: 30px;
   }
 
-  .quick-notes li {
-    display: flex;
+  .quick-notes ul {
+    display: block;
   }
 
   .recipe-card {
@@ -68,33 +76,18 @@
 
   .recipe-info li {
     justify-content: initial;
-    padding: 0px;
   }
 
   .social-networks .label,
   i {
-    display: inline-block;
+    display: inline;
   }
 
   footer {
     display: flex;
     justify-content: space-between;
-
-  }
-
-}
-
-/* bonus large mobile */
-
-@media screen and (min-width: 576px) {
-
-  .presentation img {
-    float: left;
-    padding-right: 30px;
-  }
-
-  .btn {
-    padding: 10px 30px;
+    align-items: center;
+    text-align: left;
   }
 
 }
